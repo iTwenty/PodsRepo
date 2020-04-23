@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform            = :ios, '8.0'
   s.source_files        = 'helpshift-sdk-ios-v7.7.0-withCampaigns/Helpshift.framework/Headers/*.h'
   s.resources           = 'helpshift-sdk-ios-v7.7.0-withCampaigns/Helpshift.framework/HsUIResources.bundle', 'helpshift-sdk-ios-v7.7.0-withCampaigns/Helpshift.framework/HsLocalization.bundle', 'helpshift-sdk-ios-v7.7.0-withCampaigns/Helpshift.framework/HelpshiftConfig*.plist'
-  s.preserve_paths      = 'helpshift-sdk-ios-v7.7.0-withCampaigns/Helpshift.framework'
+  s.preserve_paths      = 'helpshift-sdk-ios-v7.7.0-withCampaigns/Helpshift.framework', 'helpshift-sdk-ios-v7.7.0-withCampaigns/HelpshiftCustomLocalizations', 'helpshift-sdk-ios-v7.7.0-withCampaigns/HelpshiftCustomThemes'
   s.vendored_frameworks = 'helpshift-sdk-ios-v7.7.0-withCampaigns/Helpshift.framework'
   s.documentation_url   = 'http://developers.helpshift.com/ios/'
   s.requires_arc        = false
